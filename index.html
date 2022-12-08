@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Jquery et Jquery UI -->
+    <link rel="stylesheet" href="assets/css/jquery.modal.css" />
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/smoothness/jquery-ui.css" />
+    <!-- Fin Jquery CSS -->
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ranga">
+    <!-- Fin google fonts -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Calendrier de l'avent</title>
+</head>
+<body>
+    <h1 id="title" class="center">Calendrier de l'avent CCI</h1>
+
+    <div class="calendar">
+        <div class="day-container">
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day special">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day special">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day special">23</div>
+            <div class="day">24</div>
+            <div class="day special very-special">25</div>
+        </div>
+    </div>
+    <!-- Modal avec le cadeau -->
+    <div id="day-modal" class="modal center">
+        <div class="day-content">Votre cadeau du jour</div>
+    </div>
+    <!-- Fin modal avec cadeau -->
+    <!-- Modal erreur -->
+    <div id="no-day-modal" class="modal">
+        <div class="no-day-content">
+            <p class="center">Ne soyez pas si impatient !!!</p>
+        </div>
+    </div>
+    <!-- Fin modal erreur -->
+    <!-- Modal jour passé -->
+    <div id="passed-day-modal" class="modal">
+        <div class="no-day-content">
+            <p class="center">Trop tard !!!</p>
+        </div>
+    </div>
+    <img src="assets/img/papanoel.jpg" id="papanoel" alt="Gerald le père noel"/>
+    <!-- Fin modal jour passé -->
+    <!-- Inclusion script Jquery et Jquery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="assets/js/jquery.modal.min.js"></script>
+    <!-- Fin inclusion script Jquery et Jquery UI-->
+    <script type="text/javascript" src="assets/js/param.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

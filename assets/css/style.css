@@ -1,8 +1,11 @@
 body{
     font-family: 'Ranga', cursive, sans-serif;
+    background-color: rgb(164, 176, 172);
 }
 h1{
     font-size:4em;
+    display: block;
+    padding-left: 600px;
 }
 #title{
     margin: -5px 0;
